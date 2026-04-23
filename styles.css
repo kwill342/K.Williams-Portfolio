@@ -1,0 +1,13 @@
+/* CSS by Kourtney Williams*/
+/* Color Palette
+/* Deep Brown = #0D0D0D 
+/* Sand = #736B53
+/* Muted Green = #98A668
+/* Muted Blue = ##68A0A6 
+/* Pale Green = #CFD9C1 */
+
+/* GLOBAL (BASE) MOBILE FIRST */
+body {
+    background-color: #0D0d0D;
+    color: #CFD9C1
+}
