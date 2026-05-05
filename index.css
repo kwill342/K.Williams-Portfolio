@@ -56,6 +56,10 @@ main {
     border: solid black 2px;
 }
 
+footer {
+  grid-area: footer;
+}
+
 footer ul {
   list-style: none;
   padding: 0px;
@@ -72,7 +76,7 @@ p {
   margin-bottom: 200px;
   }
 
-  @media (min-width: 520px) {
+  @media (min-width: 520px) { /*header, nav ul & h2 = global*/
   
   header {
   grid-area: header;
