@@ -5,11 +5,10 @@ body {
     "main"
     "footer";
     margin: 40px;
-    border: solid black 2px;
 }
 
 header {
-    border: solid blue 2px;
+    grid-area: header;
 }
 
 nav ul {
@@ -19,7 +18,6 @@ nav ul {
     justify-content: space-evenly;
     padding: 0px;
     margin: 20px 0px 20px 0px; 
-    border: solid green 2px; 
 }
 
 ul a {
@@ -29,7 +27,6 @@ ul a {
 
 main {
     grid-area: main;
-    border: solid pink 4px;
 }
 
 /*end of global styles*/
@@ -45,14 +42,11 @@ h2 {
   margin: 0px;
   }
 
-#projects {
-  border: solid teal 4px;
-  }
-
-
 .project-1 {
   gap: 8px;
-  border: solid black 2px;
+  width: 100%;
+  height: auto;
+  background-color: #bdb5ad;
   }
 
 .project-1 p {
@@ -62,8 +56,8 @@ h2 {
   }
 
 .project-2 {
-  border: solid black 2px;
   gap: 8px;
+  background-color: whitesmoke;
   }
 
 .project-2 p {
@@ -71,6 +65,11 @@ h2 {
   padding: 0px;
   margin-bottom: 200px;
   }
+
+  div img {
+    width: 100%;
+    height: auto;
+}
 
   footer { /*also global style*/
   grid-area: footer;
@@ -113,13 +112,23 @@ footer ul { /*also global style*/
 
 .project-1 {
   display: flex;
-  gap: 8x;
+  gap: 8px;
+  width: 100%;
+  height: auto;
   }
 
   .project-2 {
   display: flex;
   gap: 8px;
+   width: 100%;
+  height: auto;
   }
+
+div img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+}
 
     h2 {
   font-size: 56px;

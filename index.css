@@ -5,12 +5,20 @@ body {
     "main"
     "footer";
     margin: 40px;
-    border: solid black 2px;
+    font-family: "eurostile", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("images/open\ field.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 header {
-    border: solid blue 2px;
+    grid-area: header;
+    border-bottom: solid black 1px;
 }
+
 
 nav ul {
     display: flex;
@@ -18,8 +26,7 @@ nav ul {
     gap: 48px;
     justify-content: space-evenly;
     padding: 0px;
-    margin: 20px 0px 20px 0px; 
-    border: solid green 2px; 
+    margin: 20px 0px 20px 0px;  
 }
 
 ul a {
@@ -30,32 +37,38 @@ ul a {
 main { 
     grid-area: main;
     justify-content: center;
-    border: solid pink 4px;
 }
 
 /*end of global styles*/
 
-.container {
-    border: solid purple 5px;
-}
-
-.content {
-    border: solid yellow 5px;
-}
 
 .grid {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     gap: 4px;
     width: 100%;
-    border: solid red 2px;
+    font-family: "eurostile", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: whitesmoke;
 }
 
 .cell {
     display: flex;
     aspect-ratio: 1/1;
     justify-content: center;
-    border: solid black 2px;
+}
+
+.intro {
+    font-family: "eurostile", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+  }
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 footer { /*also global style*/
@@ -78,8 +91,10 @@ p {
   margin-bottom: 200px;
   }
 
-  @media (min-width: 520px) { /*header, nav ul & h2 = global*/
-  
+  @media (min-width: 950px) { /*header, nav ul & h2 = global*/
+ 
+/*need breakpoints from 875 - 526*/
+
   header {
   grid-area: header;
   margin-bottom: 20px;
@@ -91,28 +106,49 @@ p {
     "header" "header"
     "main" "main"
     "footer" "footer";
-  font-family: sans-serif;
+ font-family: "eurostile", sans-serif;
+ font-weight: 400;
+ font-style: normal;
   margin: 40px;
+
 }
   
   .container {
     display: flex;
     gap: 12px;
+    max-width: 550px;
     }
   
   main {
     display: flex;
     grid-area: main;
+    padding-right: 300px;
   }
   
   .grid {
     width: 100%;
     flex: 1;
+    align-items: center;
+    font-family: "eurostile", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: whitesmoke;
   }
   
   .cell {
     flex: 1;
     }
+
+  .intro {
+    font-family: "eurostile", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: whitesmoke;
+  }
+
+  nav {
+    width: 100%;
+}
   
   nav ul {
     flex-direction: column;
