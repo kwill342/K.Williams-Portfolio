@@ -32,6 +32,8 @@ main {
     border: solid pink 4px;
 }
 
+/*end of global styles*/
+
 .container {
     width: 100%;
     height: auto;
@@ -49,11 +51,11 @@ figure img {
   height: auto;
   }
 
-footer {
+footer { /*also global style*/
   grid-area: footer;
 }
 
-footer ul {
+footer ul { /*also global style*/
   list-style: none;
   padding: 0px;
 }
@@ -83,7 +85,7 @@ align-items: flex-start;
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap 0px;
+    gap: 0px;
 }
 
 figure {

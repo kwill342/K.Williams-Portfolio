@@ -33,6 +33,8 @@ main {
     border: solid pink 4px;
 }
 
+/*end of global styles*/
+
 .container {
     border: solid purple 5px;
 }
@@ -56,11 +58,11 @@ main {
     border: solid black 2px;
 }
 
-footer {
+footer { /*also global style*/
   grid-area: footer;
 }
 
-footer ul {
+footer ul { /*also global style*/
   list-style: none;
   padding: 0px;
 }

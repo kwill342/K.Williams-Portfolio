@@ -1,0 +1,127 @@
+body {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    margin: 40px;
+    border: solid black 2px;
+}
+
+header {
+    border: solid blue 2px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 20px 0px 20px 0px; 
+    border: solid green 2px; 
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+  }
+
+main {
+    grid-area: main;
+    border: solid pink 4px;
+}
+
+/*end of global styles*/
+
+img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 34px;
+  margin: 0px;
+  }
+
+#projects {
+  border: solid teal 4px;
+  }
+
+
+.project-1 {
+  gap: 8px;
+  border: solid black 2px;
+  }
+
+.project-1 p {
+  font-size: 16px;
+  padding: 0px;
+  margin-bottom: 80px;
+  }
+
+.project-2 {
+  border: solid black 2px;
+  gap: 8px;
+  }
+
+.project-2 p {
+  font-size: 16px;
+  padding: 0px;
+  margin-bottom: 200px;
+  }
+
+  footer { /*also global style*/
+  grid-area: footer;
+}
+
+footer ul { /*also global style*/
+  list-style: none;
+  padding: 0px;
+}
+
+@media (min-width: 520px) { /*header, nav ul & h2 = global*/
+  
+  header {
+  grid-area: header;
+  margin-bottom: 20px;
+  }
+
+  body {
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "header" "header"
+    "main" "main"
+    "footer" "footer";
+  font-family: sans-serif;
+  margin: 40px;
+  }
+
+  main {
+    display: flex;
+  }
+
+  nav ul {
+    flex-direction: column;
+    flex: 1;
+    gap: 16px;
+    width: 100%;
+    align-items: flex-start;
+    margin: 0px 160px 0px 0px
+  }
+
+.project-1 {
+  display: flex;
+  gap: 8x;
+  }
+
+  .project-2 {
+  display: flex;
+  gap: 8px;
+  }
+
+    h2 {
+  font-size: 56px;
+}
+}
