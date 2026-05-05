@@ -1,0 +1,31 @@
+body {
+    border: solid black 2px;
+}
+
+header {
+    border: solid blue 2px;
+}
+
+nav {
+   border: solid green 2px; 
+}
+
+main { 
+    border: solid pink 4px;
+}
+
+.container {
+    border: solid purple 2px;
+}
+
+.content {
+    border: solid yellow 5px;
+}
+
+.grid {
+    border: solid red 2px;
+}
+
+.cell {
+    border: solid black 2px;
+}
