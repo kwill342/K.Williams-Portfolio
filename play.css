@@ -36,6 +36,10 @@ ul a {
     color: black;
   }
 
+nav li:nth-child(3) {
+    font-weight: 700;
+}
+
 main {
     grid-area: main;
 }
@@ -67,17 +71,21 @@ footer ul { /*also global style*/
   padding: 0px;
 }
 
+footer li {
+    font-size: 14px;
+}
+
 @media (min-width: 920px) { /*header, nav ul & h2 = global*/
   
 header {
   grid-area: header;
   margin-bottom: 20px;
-  padding-right: 100px;
+  padding-right: 250px;
   border-bottom: solid black 1px;
   }
 
 header img {
-    width: 50%;
+    width: 30%;
     height: auto;
   }
 
@@ -107,7 +115,7 @@ body {
   }
 
    li {
-    font-size: 24px;
+    font-size: 18px;
   }
 
 .container{

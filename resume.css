@@ -44,9 +44,29 @@ ul a {
     color: black;
   }
 
+nav li:nth-child(4) {
+    font-weight: 700;
+}
+
 main {
-    display: flex;
     grid-area: main;
+}
+
+.content {
+    margin-bottom: 200px;
+}
+
+  footer { /*also global style*/
+  grid-area: footer;
+}
+
+  footer ul { /*also global style*/
+  list-style: none;
+  padding: 0px;
+}
+
+footer li {
+    font-size: 14px;
 }
 
 @media (min-width: 920px) { /*header, nav ul & h2 = global*/
@@ -54,12 +74,12 @@ main {
 header {
   grid-area: header;
   margin-bottom: 20px;
-  padding-right: 100px;
+  padding-right: 250px;
   border-bottom: solid black 1px;
   }
 
 header img {
-    width: 50%;
+    width: 30%;
     height: auto;
   }
 
@@ -72,6 +92,12 @@ header img {
     margin: 0px 160px 0px 0px
   }
 
+  main {
+    display: flex;
+    grid-area: main;
+}
+
    li {
-    font-size: 24px;
+    font-size:18px;
   }
+}

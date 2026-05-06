@@ -8,7 +8,7 @@ body {
     font-family: "eurostile", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-image: url("images/open\ field.jpg");
+    
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -40,6 +40,10 @@ ul a {
   text-decoration: none;
   color: black;
   }
+
+nav li:first-child {
+    font-weight: 700;
+}
 
 main { 
     grid-area: main;
@@ -87,6 +91,10 @@ footer ul { /*also global style*/
   padding: 0px;
 }
 
+footer li {
+    font-size: 14px;
+}
+
 h2 {
   font-size: 40px;
   margin: 0px;
@@ -105,12 +113,12 @@ p {
   header {
   grid-area: header;
   margin-bottom: 20px;
-  padding-right: 100px;
+  padding-right: 250px;
   border-bottom: solid black 1px;
   }
 
   header img {
-    width: 50%;
+    width: 30%;
     height: auto;
   }
   
@@ -130,13 +138,13 @@ p {
   .container {
     display: flex;
     gap: 12px;
-    max-width: 600px;
+    max-width: 650px;
     }
   
   main {
     display: flex;
     grid-area: main;
-    padding-right: 200px;
+    padding-right: 350px;
   }
   
   .grid {
@@ -174,7 +182,7 @@ p {
   }
   
   li {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   h2 {

@@ -35,6 +35,10 @@ ul a {
     color: black;
   }
 
+nav li:nth-child(2) {
+    font-weight: 700;
+}
+
 main {
     grid-area: main;
 }
@@ -90,17 +94,21 @@ h2 {
   padding: 0px;
 }
 
+footer li {
+    font-size: 14px;
+}
+
 @media (min-width: 950px) { /*header, nav ul & h2 = global*/
   
   header {
   grid-area: header;
   margin-bottom: 20px;
-  padding-right: 100px;
+  padding-right: 250px;
   border-bottom: solid black 1px;
   }
 
   header img {
-    width: 50%;
+    width: 30%;
     height: auto;
   }
 
@@ -130,7 +138,7 @@ h2 {
   }
 
    li {
-    font-size: 24px;
+    font-size: 18px;
   }
 
 .project-1 {
@@ -153,7 +161,7 @@ h2 {
   font-style: normal;
   }
 
-div img {
+  div img {
     width: 100%;
     height: auto;
     max-width: 400px;
