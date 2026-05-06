@@ -1,3 +1,16 @@
+  header { 
+    grid-area: header; 
+}
+
+  nav {
+    grid-area: nav;
+  }
+
+   main {
+    grid-area: main;
+    width: 100%;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -27,17 +40,12 @@ img {
     height: auto;
 }
 
-footer { /*also global style*/
+nav li:first-child {
+    font-weight: 700;
+}
+
+footer {
   grid-area: footer;
-}
-
-footer ul { /*also global style*/
-  list-style: none;
-  padding: 0px;
-}
-
-footer li {
-    font-size: 14px;
 }
 
 h2 {
@@ -51,9 +59,9 @@ p {
   margin-bottom: 200px;
   }
 
-  @media (min-width: 950px) { /*header, nav ul & h2 = global*/
- 
+  @media (min-width: 950px) { 
 /*need breakpoints from 875 - 526*/
+
   .container {
     display: flex;
     gap: 12px;
@@ -61,9 +69,9 @@ p {
     }
   
   main {
-    display: flex;
     grid-area: main;
     padding-right: 350px;
+    width: 100%;
   }
   
   .grid {
@@ -86,4 +94,9 @@ p {
     font-style: normal;
     color: black;
   }
+
+   footer {
+    grid-area: footer;
+
+   }
   }

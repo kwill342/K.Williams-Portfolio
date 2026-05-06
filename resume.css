@@ -1,28 +1,29 @@
+ header { 
+    grid-area: header; 
+}
+
+  nav {
+    grid-area: nav;
+  }
+
+   main {
+    grid-area: main;
+    width: 100%;
+}
+
 .content {
     margin-bottom: 200px;
 }
 
-  footer { /*also global style*/
-  grid-area: footer;
+nav li:nth-child(4) {
+    font-weight: 700;
 }
 
-  footer ul { /*also global style*/
-  list-style: none;
-  padding: 0px;
-}
-
-footer li {
-    font-size: 14px;
-}
-
-@media (min-width: 920px) { /*header, nav ul & h2 = global*/
-
-  main {
-    display: flex;
-    grid-area: main;
-}
-
-   li {
-    font-size:18px;
+  footer {
+    grid-area: footer;
   }
+
+@media (min-width: 920px) {
+
+ 
 }
