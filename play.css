@@ -53,10 +53,6 @@ main {
     gap: 2px; 
 }
 
-figure {
-    border: solid yellow 2px;
-}
-
 figure img {
   width: 100%;
   height: auto;
@@ -121,12 +117,11 @@ body {
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 0px;
+    gap: 2px;
 }
 
 figure {
     margin: 0px;
-    border: solid yellow 2px;
 }
 
 figure img {

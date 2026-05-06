@@ -60,7 +60,6 @@ h2 {
   gap: 8px;
   width: 100%;
   height: auto;
-  background-color: #bdb5ad;
   }
 
 .project-1 p {
@@ -71,7 +70,6 @@ h2 {
 
 .project-2 {
   gap: 8px;
-  background-color: whitesmoke;
   }
 
 .project-2 p {
