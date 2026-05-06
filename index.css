@@ -14,9 +14,16 @@ body {
     background-position: center;
 }
 
+
 header {
     grid-area: header;
+    height: 120px;
     border-bottom: solid black 1px;
+}
+
+header img {
+    width: 100%;
+    height: auto;
 }
 
 
@@ -50,7 +57,7 @@ main {
     font-family: "eurostile", sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: whitesmoke;
+    color: black;
 }
 
 .cell {
@@ -63,7 +70,7 @@ main {
     font-family: "eurostile", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: whitesmoke;
+    color: black;
   }
 
 img {
@@ -98,6 +105,13 @@ p {
   header {
   grid-area: header;
   margin-bottom: 20px;
+  padding-right: 100px;
+  border-bottom: solid black 1px;
+  }
+
+  header img {
+    width: 50%;
+    height: auto;
   }
   
   body {
@@ -109,20 +123,20 @@ p {
  font-family: "eurostile", sans-serif;
  font-weight: 400;
  font-style: normal;
-  margin: 40px;
+ margin: 40px;
 
 }
   
   .container {
     display: flex;
     gap: 12px;
-    max-width: 550px;
+    max-width: 600px;
     }
   
   main {
     display: flex;
     grid-area: main;
-    padding-right: 300px;
+    padding-right: 200px;
   }
   
   .grid {
@@ -132,7 +146,7 @@ p {
     font-family: "eurostile", sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: whitesmoke;
+    color: black;
   }
   
   .cell {
@@ -143,7 +157,7 @@ p {
     font-family: "eurostile", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: whitesmoke;
+    color: black;
   }
 
   nav {
@@ -159,7 +173,11 @@ p {
     margin: 0px 160px 0px 0px
   }
   
+  li {
+    font-size: 24px;
+  }
+
   h2 {
-  font-size: 56px;
+  font-size: 60px;
 }
   }

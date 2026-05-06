@@ -4,11 +4,21 @@ body {
     "header"
     "main"
     "footer";
+    font-family: "eurostile", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 40px;
 }
 
 header {
     grid-area: header;
+    height: 120px;
+    border-bottom: solid black 1px;
+}
+
+header img {
+    width: 100%;
+    height: auto;
 }
 
 nav ul {
@@ -75,16 +85,23 @@ h2 {
   grid-area: footer;
 }
 
-footer ul { /*also global style*/
+  footer ul { /*also global style*/
   list-style: none;
   padding: 0px;
 }
 
-@media (min-width: 520px) { /*header, nav ul & h2 = global*/
+@media (min-width: 950px) { /*header, nav ul & h2 = global*/
   
   header {
   grid-area: header;
   margin-bottom: 20px;
+  padding-right: 100px;
+  border-bottom: solid black 1px;
+  }
+
+  header img {
+    width: 50%;
+    height: auto;
   }
 
   body {
@@ -93,7 +110,9 @@ footer ul { /*also global style*/
     "header" "header"
     "main" "main"
     "footer" "footer";
-  font-family: sans-serif;
+  font-family: "eurostile", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   margin: 40px;
   }
 
@@ -110,11 +129,18 @@ footer ul { /*also global style*/
     margin: 0px 160px 0px 0px
   }
 
+   li {
+    font-size: 24px;
+  }
+
 .project-1 {
   display: flex;
   gap: 8px;
   width: 100%;
   height: auto;
+  font-family: "eurostile", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   }
 
   .project-2 {
@@ -122,6 +148,9 @@ footer ul { /*also global style*/
   gap: 8px;
    width: 100%;
   height: auto;
+  font-family: "eurostile", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   }
 
 div img {
